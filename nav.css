@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.nav__wrapper nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+}
+.nav__wrapper nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 136, 0);
+}

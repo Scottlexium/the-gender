@@ -1,0 +1,15 @@
+*{
+    overflow-x: hidden;
+    transition: all .3s ease-in-out;
+}
+.menu__btn:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.menu__btn{
+    outline: none;
+}
+.animated__menu, .animated__more, .animated__ul, .animated__ul__main{
+    transition: all .3s ease-in-out;
+}
